@@ -25,6 +25,7 @@ public class PropertiesLoader {
         if (name != null) {
             value = properties.getProperty(name);
         }
+
         return "";
     }
 
