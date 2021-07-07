@@ -5,7 +5,9 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"json:target/cucumber-report.json", "pretty"})
+@CucumberOptions(plugin = {"json:target/cucumber-report.json", "pretty"},
+                            glue = "de.sconto",
+                            strict = true)
 
 public class RunCucumberTest {
 
