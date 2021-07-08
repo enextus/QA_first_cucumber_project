@@ -4,6 +4,7 @@ import com.codeborne.selenide.SelenideElement;
 import de.sconto.util.PropertiesLoader;
 import org.openqa.selenium.By;
 
+import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 
 public class LoginPage {
@@ -20,6 +21,9 @@ public class LoginPage {
     private static By myAccountIcon = By.cssSelector(".headerElement--login");
 
     private static By title = By.cssSelector(".headerElement--login");
+
+    private static By loginHeader = By.cssSelector(".existingAccount__headline");
+
 
     public void clickOnLoginTab() {
         $(loginTab).click();
@@ -46,6 +50,22 @@ public class LoginPage {
         return $(title);
     }
 
+    public SelenideElement loginPageHeader() {
+        return $(loginHeader);
+    }
+
+    public void invalidPasswordInput(String email, String password) {
+
+         $(emailInput).val(email);
+         $(passwordInput).val(password);
+
+    }
+
+    private static By errorMessage = By.id("loginEmail-error");
+
+    public void errorPasswordMessage() {
+        $(errorMessage).shouldHave(text("Benutzername nicht gefunden oder Passwort falsch."));
+    }
 
 }
 
