@@ -26,10 +26,13 @@ public class WrongPasswordSteps implements En {
 
         });
 
-        Then("", () -> {
-
+        Then("I should see error message", () ->{
             loginPage.errorPasswordMessage();
 
-        });
+        } );
+
     }
+
 }
+
+// Benutzername nicht gefunden oder Passwort falsch.
