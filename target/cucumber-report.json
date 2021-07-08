@@ -1,1 +1,118 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-08T11:24:17.012Z",
+        "line": 5,
+        "name": "Our Goal is Successful Login",
+        "description": "",
+        "id": "sconto-login-feature;our-goal-is-successful-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "io.cucumber.java8.PendingException: TODO: implement me\n\tat de.sconto.steps.LoginSteps.lambda$new$0(LoginSteps.java:22)\n\tat ✽.I am on the homepage(file:///home/enextus/IdeaProjects/java_testing_projects/QA_first_cucumber_project/src/test/resources/de/de.sconto/login.feature:6)\n",
+              "duration": 2370000,
+              "status": "pending"
+            },
+            "line": 6,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:18)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I click on the login button Anmelden",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I see login page",
+            "match": {
+              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:33)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I insert valid user credentials",
+            "match": {
+              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:44)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click on Login button",
+            "match": {
+              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:51)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I should see MyAccount icon",
+            "match": {
+              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:58)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on MyAccount icon",
+            "match": {
+              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:68)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should see my name",
+            "match": {
+              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:75)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sconto Login Feature",
+    "description": "  In order to see the user area\n  I log in to the website",
+    "id": "sconto-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/de/de.sconto/login.feature",
+    "tags": []
+  }
+]
