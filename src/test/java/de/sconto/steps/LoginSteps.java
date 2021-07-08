@@ -43,7 +43,7 @@ public class LoginSteps implements En {
 
         When("I click on MyAccount icon", () -> {
 
-            loginPage.validMyAccountIcon();
+            loginPage.clickOnMyAccountIcon();
         });
 
         Then("I should see my name", () -> {
@@ -53,3 +53,13 @@ public class LoginSteps implements En {
     }
 
 }
+
+ /*When I click on the Login icon
+    Then I see Login page
+    When I insert valid user credentials
+    And I click on Login button
+    Then I should see MyAccount icon
+    When I click on MyAccount icon
+    Then I should see my name
+
+  */

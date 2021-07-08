@@ -1,7 +1,7 @@
 Feature: Sconto Login Feature
   In order to see the error message
 
-@wrong
+@wrongLogin
   Scenario: (Our Goal)  Login with wrong password
     Given I am on the homepage
     When I click on the login icon  (Anmelden)
