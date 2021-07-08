@@ -1,9 +1,8 @@
 package de.sconto.pages;
 
+import com.codeborne.selenide.Condition;
 import de.sconto.util.PropertiesLoader;
 import org.openqa.selenium.By;
-
-import static com.codeborne.selenide.Condition.exist;
 
 import static com.codeborne.selenide.Selenide.$;
 
@@ -17,8 +16,7 @@ public class HomePage {
     public void acceptCookies() {
 
         $(acceptBtn).click();
-        $(acceptBanner).shouldNot(exist);
-
+        $(acceptBanner).shouldNot(Condition.exist);
     }
 
 }

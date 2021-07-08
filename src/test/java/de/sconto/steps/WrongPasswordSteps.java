@@ -14,7 +14,9 @@ public class WrongPasswordSteps implements En {
     LoginPage loginPage;
 
     public WrongPasswordSteps() {
+
         When("I insert valid user credentials", (DataTable table) -> {
+
             loginPage = page(LoginPage.class);
 
             List<Map<String, String>> dataTable = table.asMaps();
