@@ -4,7 +4,7 @@ Feature: Sconto Login Feature
 
   Scenario: Our Goal is Successful Login
     Given I am on the homepage
-    When I click on the login button Anmelden
+    When I click on the Login icon
     Then I see login page
 
     When I insert valid user credentials

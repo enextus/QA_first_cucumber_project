@@ -10,7 +10,6 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.page;
 
 public class LoginSteps implements En {
-
     LoginPage loginPage;
 
     public LoginSteps() {
@@ -18,6 +17,7 @@ public class LoginSteps implements En {
         Given("I am on the homepage", () -> {
             // Write code here that turns the phrase above into concrete actions
 
+            //public void I_am_on_the_homepage();
 
             throw new io.cucumber.java8.PendingException();
         });

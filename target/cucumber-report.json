@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-08T11:24:17.012Z",
+        "start_timestamp": "2021-07-08T11:34:11.895Z",
         "line": 5,
         "name": "Our Goal is Successful Login",
         "description": "",
@@ -13,95 +13,94 @@
         "steps": [
           {
             "result": {
-              "error_message": "io.cucumber.java8.PendingException: TODO: implement me\n\tat de.sconto.steps.LoginSteps.lambda$new$0(LoginSteps.java:22)\n\tat ✽.I am on the homepage(file:///home/enextus/IdeaProjects/java_testing_projects/QA_first_cucumber_project/src/test/resources/de/de.sconto/login.feature:6)\n",
-              "duration": 2370000,
-              "status": "pending"
+              "status": "undefined"
             },
             "line": 6,
             "name": "I am on the homepage",
-            "match": {
-              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:18)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7,
-            "name": "I click on the login button Anmelden",
             "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 31000,
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "I see login page",
-            "match": {
-              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:33)"
-            },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
               "duration": 27000,
               "status": "skipped"
             },
+            "line": 7,
+            "name": "I click on the Login icon",
+            "match": {
+              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:19)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 19000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I see login page",
+            "match": {
+              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:27)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19000,
+              "status": "skipped"
+            },
             "line": 10,
             "name": "I insert valid user credentials",
             "match": {
-              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:44)"
+              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:38)"
             },
             "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I click on Login button",
+            "match": {
+              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:45)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "I should see MyAccount icon",
+            "match": {
+              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:52)"
+            },
+            "keyword": "Then "
           },
           {
             "result": {
               "duration": 25000,
               "status": "skipped"
             },
-            "line": 11,
-            "name": "I click on Login button",
-            "match": {
-              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:51)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 23000,
-              "status": "skipped"
-            },
-            "line": 12,
-            "name": "I should see MyAccount icon",
-            "match": {
-              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:58)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 24000,
-              "status": "skipped"
-            },
             "line": 14,
             "name": "I click on MyAccount icon",
             "match": {
-              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:68)"
+              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:62)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 24000,
+              "duration": 16000,
               "status": "skipped"
             },
             "line": 15,
             "name": "I should see my name",
             "match": {
-              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:75)"
+              "location": "de.sconto.steps.LoginSteps.\u003cinit\u003e(LoginSteps.java:69)"
             },
             "keyword": "Then "
           }
